@@ -89,7 +89,7 @@ work:
     date_start: 2017-10-01
     date_end: 2021-03-31
     summary: |
-      Three-dimensional plant structure modeling and lifelog generation for growth analysis and prediction in future cultivation（緻密な生育管理を実現する「未来栽培」のための植物の三次元構造復元と植物ライフログの構築） 
+      Three-dimensional plant structure modeling and lifelog generation for growth analysis and prediction in future cultivation
 - position: Assistant Professor
     company_name: SANKEN, The University of Osaka
     company_url: 'https://www.osaka-u.ac.jp/'
