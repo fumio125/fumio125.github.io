@@ -24,8 +24,8 @@ role: Associate Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-- name: The University of Osaka
-  url: https://www.osaka-u.ac.jp/
+  - name: The University of Osaka
+    url: https://www.osaka-u.ac.jp/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
