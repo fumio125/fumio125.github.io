@@ -89,7 +89,7 @@ work:
     date_start: 2017-10-01
     date_end: 2021-03-31
     summary: |
-      Three-dimensional plant structure modeling and lifelog generation for growth analysis and prediction in future cultivation
+      Three-dimensional plant structure modeling and lifelog generation for growth analysis and prediction in future cultivation（緻密な生育管理を実現する「未来栽培」のための植物の三次元構造復元と植物ライフログの構築）
       
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -169,6 +169,6 @@ awards:
 
 I am an associate professor in Computer Vision Laboratory, Graduate School of Information Science and Technology, The University of Osaka, working with (Guest) Professor Yasuyuki Matsushita and Assistant Professor Hiroaki Santo. I recently found the <a href="https://sites.google.com/view/cvl-osaka/" target="_blank">Computer Vision League Osaka (CVL-Osaka)</a> alliance gathering CV reseachers around Osaka.
 
-Until March 2020, I was an assistant professor at the Department of Intelligent Media (Yagi Lab.). I received my Ph.D. (Doctor of Engineering) in March 2014 from Nara Institute of Science and Technology (NAIST), Japan, under the supervision of Professor Naokazu Yokoya in Vision and Media Computing Lab. After receiving my Ph.D., I visited the REVES group at INRIA Sophia-Antipolis, France and worked with Dr. George Drettakis, Dr. Adrien Bousseau, and Dr. Kenneth Vanhoey in collaboration with Professor Alyosha Efros (UC Berkeley). From 2017 to 2021, I was also a researcher in JST PRESTO (さきがけ), "Innovational technical basis for cultivation in cooperation with information science" (「情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出」) research area.
+Until March 2020, I was an assistant professor at the Department of Intelligent Media (Yagi Lab.). I received my Ph.D. (Doctor of Engineering) in March 2014 from Nara Institute of Science and Technology (NAIST), Japan, under the supervision of Professor Naokazu Yokoya in Vision and Media Computing Lab. After receiving my Ph.D., I visited the REVES group at INRIA Sophia-Antipolis, France and worked with Dr. George Drettakis, Dr. Adrien Bousseau, and Dr. Kenneth Vanhoey in collaboration with Professor Alyosha Efros (UC Berkeley). From 2017 to 2021, I was also a researcher in JST PRESTO (さきがけ), "Innovational technical basis for cultivation in cooperation with information science" (情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出) research area.
 
 I'm working on a boundary domain between computer graphics and vision. I'm especially interested in modeling, rendering, and applications of computer vision. Recently, I have become particularly interested in image-based analysis of botanical plants, which poses significant challenges to the field of computer vision.
