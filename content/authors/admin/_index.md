@@ -82,7 +82,7 @@ work:
     date_end: ''
     summary: |
       Working for the boundary domain between computer vision and graphics (Computer Vision Lab).
-  - position: JST PRESTO researcher（JSTさきがけ研究員（兼任）） 
+  - position: JST PRESTO researcher
     company_name: Japan Science and Technology Agency
     company_url: ''
     company_logo: ''
