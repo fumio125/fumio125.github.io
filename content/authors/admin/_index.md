@@ -82,38 +82,6 @@ work:
     date_end: ''
     summary: |
       Working for the boundary domain between computer vision and graphics (Computer Vision Lab).
-  - position: JST PRESTO researcher
-    company_name: Japan Science and Technology Agency
-    company_url: ''
-    company_logo: ''
-    date_start: 2017-10-01
-    date_end: 2021-03-31
-    summary: |
-      Three-dimensional plant structure modeling and lifelog generation for growth analysis and prediction in future cultivation
-- position: Assistant Professor
-    company_name: SANKEN, The University of Osaka
-    company_url: 'https://www.osaka-u.ac.jp/'
-    company_logo: ''
-    date_start: 2015-02-15
-    date_end: 2020-03-31
-    summary: |
-      Working for the boundary domain between computer vision and graphics (Yagi Lab).
-- position: Visiting post-doc（客員研究員） 
-    company_name: Inria Sophia Antipolis (REVES group)
-    company_url: ''
-    company_logo: ''
-    date_start: 2014-04-01
-    date_end: 2015-02-14
-    summary: |
-      Working for image synthesis.
-  - position: JSPS Research Fellow DC2（日本学術振興会特別研究員） 
-    company_name: JSPS
-    company_url: ''
-    company_logo: ''
-    date_start: 2013-04-01
-    date_end: 2015-02-14
-    summary: |
-      Space-time image-based rendering（四次元視点移動を可能にする自由視点画像生成） 
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
