@@ -20,44 +20,44 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Associate Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: The University of Osaka
+    url: https://www.osaka-u.ac.jp/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
+#  - icon: at-symbol
+#    url: 'mailto:your-email@example.com'
+#    label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/foukmu
+#  - icon: brands/instagram
+#    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://github.com/fumio125
+ # - icon: brands/linkedin
+ #   url: https://www.linkedin.com/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=Qw72w48AAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-7595-1300
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computer Vision
+  - Computer Graphics
+  - Plant Phenomics
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Ph.D. (Doctor of Engineering)
+    institution: Nara Institute of Science and Technology (NAIST)
+    date_start: 2011-04-01
+    date_end: 2014-03-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Working for mixed reality under the supervision of Professor Naokazu Yokoya in Vision and Media Computing Lab.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
