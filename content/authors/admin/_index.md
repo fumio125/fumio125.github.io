@@ -82,7 +82,15 @@ work:
     date_end: ''
     summary: |
       Working for the boundary domain between computer vision and graphics (Computer Vision Lab).
-
+  - position: JST PRESTO researcher
+    company_name: Japan Science and Technology Agency
+    company_url: ''
+    company_logo: ''
+    date_start: 2017-10-01
+    date_end: 2021-03-31
+    summary: |
+      Three-dimensional plant structure modeling and lifelog generation for growth analysis and prediction in future cultivation
+      
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
