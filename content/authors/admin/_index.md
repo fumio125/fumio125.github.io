@@ -61,28 +61,18 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: M. Eng.
+    institution: Nara Institute of Science and Technology (NAIST)
+    date_start: 2009-04-01
+    date_end: 2011-03-31
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Working for mixed reality under the supervision of Professor Naokazu Yokoya in Vision and Media Computing Lab.
+  - area: Undergraduate student in Department of Media Technology
+    institution: Ritsumeikan University
+    date_start: 2006-04-01
+    date_end: 2009-03-31
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      I skipped the fourth grade of undergraduate and entered into the graduate school one year earlier than the usual path.
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
