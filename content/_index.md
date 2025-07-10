@@ -32,14 +32,13 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I'm working on a boundary domain between computer graphics and vision. I'm especially interested in modeling, rendering, and applications of computer vision. 
         
-        Please reach out to collaborate 😃
+        Recently, I have become particularly interested in image-based analysis of botanical plants, which poses significant challenges to the field of computer vision.
+
     design:
       columns: '1'
   - block: collection
