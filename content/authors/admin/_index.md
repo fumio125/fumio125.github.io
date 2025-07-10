@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 大倉 史生
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Fumio Okura
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Fumio
+last_name: Okura
 
 # Status emoji
 status:
