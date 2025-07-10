@@ -30,9 +30,9 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:okura[at]ist.osaka-u.ac.jp'
-    label: E-mail Me
+#  - icon: at-symbol
+#    url: 'mailto:okura@ist.osaka-u.ac.jp'
+#    label: E-mail Me
   - icon: brands/x
     url: https://x.com/foukmu
 #  - icon: brands/instagram
