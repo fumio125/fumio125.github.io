@@ -118,28 +118,40 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: C++
-        description: ''
-        percent: 80
-        icon: code-bracket
-  - name: Hobbies
+  # - name: Technical Skills
+  #   items:
+  #     - name: Python
+  #       description: ''
+  #       percent: 80
+  #       icon: code-bracket
+  #     - name: C++
+  #       description: ''
+  #       percent: 80
+  #       icon: code-bracket
+  # - name: Hobbies
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Hot springs
+  #       description: ''
+  #       percent: 60
+  #       icon: person-simple-walk
+  #     - name: Hiking
+  #       description: ''
+  #       percent: 60
+  #       icon: person-simple-walk
+  - name: Social Activities
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hot springs
+      - name: Associate Editor, Plant Phenomics
+        description: 'aaa'
+        percent: 100
+        icon: book        
+      - name: Associate Editor, Plant Phenomics
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
+        percent: 100
+        icon: book
 
 languages:
   - name: Japanese
@@ -159,16 +171,6 @@ awards:
     icon: coursera
     summary: |
       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-
-# Socials.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Associate Editor, Plant Phenomics
-    url: https://www.sciencedirect.com/journal/plant-phenomics
-    date: '2018-04-01'
-    awarder: Plant Phenomics
 ---
 
 ## About Me
