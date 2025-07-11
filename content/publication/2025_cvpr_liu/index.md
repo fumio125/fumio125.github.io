@@ -7,8 +7,8 @@ title: 'HoGS: Unified near and far object reconstruction via homogeneous gaussia
 authors:
   - Xinpeng Liu
   - Zeyi Huang
-  - Yasuyuki Matsushita
   - admin
+  - Yasuyuki Matsushita
 
 # Author notes (optional)
 author_notes:
