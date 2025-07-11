@@ -28,7 +28,7 @@ sections:
     content:
       title: Awards
       username: admin
-  - block: resume-social
+  - block: resume-awards
     content:
       title: Social Activities
       username: admin
