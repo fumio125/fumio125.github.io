@@ -12,12 +12,12 @@ location: Iowa State University, USA
 #   postcode: '94305'
 #   country: United States
 
-summary: 'Regarding the PlantTwin project, I presented the 3D structural reconstruction of plants.'
+summary: 'Regarding the PlantTwin project, I presented the keynote talk about 3D structural reconstruction of plants.'
 # abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2022-10-10'
+date: '2022-10-10T08:30:00Z'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
