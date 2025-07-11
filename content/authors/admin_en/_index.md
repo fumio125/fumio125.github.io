@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 大倉 史生
+title: Fumio Okura
 
 # Name pronunciation (optional)
-name_pronunciation: Fumio Okura
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Fumio
