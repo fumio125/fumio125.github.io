@@ -135,7 +135,7 @@ skills:
       - name: Hot springs
         description: ''
         percent: 60
-        icon: bath-bubble
+        icon: person-simple-walk
       - name: Hiking
         description: ''
         percent: 60
