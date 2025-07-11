@@ -7,7 +7,7 @@ title: Fumio Okura
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Reviewer (regurarly)
+  - title: Reviewer (regularly)
     date: '2099-01-01'
     awarder: CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, AAAI, ISMAR, TPAMI, IJCV, etc. 
   - title: Area Chair, NeurIPS 2025
