@@ -1,10 +1,10 @@
 ---
-title: 'HoGS: Unified near and far object reconstruction via homogeneous gaussian splatting @ MIRU2025'
+title: '画像からの植物「構造」の復元 @ 第31回食料生産技術研究会'
 
-event: '第28回 画像の認識・理解シンポジウム（MIRU2025）'
-event_url: https://cvim.ipsj.or.jp/MIRU2025/index.html
+event: '第31回食料生産技術研究会'
+event_url: https://fptr.iis.u-tokyo.ac.jp/evt20241009/
 
-location: Kyoto, Japan
+location: Tokyo, Japan
 # address:
 #   street: 450 Serra Mall
 #   city: Stanford
@@ -12,12 +12,12 @@ location: Kyoto, Japan
 #   postcode: '94305'
 #   country: United States
 
-summary: 'CVPR 2025で発表した"HoGS: Unified near and far object reconstruction via homogeneous gaussian splatting"について話しました。'
+summary: 'コンピュータビジョン技術を用いた植物の構造復元について話しました。'
 # abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-07-30'
+date: '2024-10-09'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 

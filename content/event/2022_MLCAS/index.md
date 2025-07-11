@@ -1,10 +1,10 @@
 ---
-title: '画像からの植物「構造」の復元'
+title: '3D structural reconstruction of plants: A perspective from computer vision study @ MLCAS2022'
 
-event: '第31回食料生産技術研究会'
-event_url: https://fptr.iis.u-tokyo.ac.jp/evt20241009/
+event: 'The Fourth International Workshop on Machine Learning for Cyber-Agricultural Systems (MLCAS2022)'
+event_url: https://mlcas2022.github.io/
 
-location: Tokyo, Japan
+location: Iowa State University, USA
 # address:
 #   street: 450 Serra Mall
 #   city: Stanford
@@ -12,12 +12,12 @@ location: Tokyo, Japan
 #   postcode: '94305'
 #   country: United States
 
-summary: 'コンピュータビジョン技術を用いた植物の構造復元について話しました。'
+summary: 'Regarding the PlantTwin project, I presented the 3D structural reconstruction of plants.'
 # abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-10-09'
+date: '2022-10-10'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
@@ -25,7 +25,7 @@ all_day: false
 publishDate: '2017-01-01T00:00:00Z'
 
 authors:
-  - admin
+  - admin_en
 
 tags: []
 
