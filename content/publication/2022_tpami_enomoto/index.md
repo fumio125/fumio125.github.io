@@ -1,24 +1,22 @@
 ---
-title: 'M3R-CNN: On effective multi-modal fusion of RGB and depth cues for instance segmentation in bin-picking'
+title: 'Discrete search photometric stereo for fast and accurate shape estimation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Takao Nishi
-  - Shinya Kawasaki
-  - Kosuke Iewaki
+  - Kenji Enomoto
+  - Michael Waechter
   - admin
-  - Damien Petit
-  - Yoichi Takano
-  - Kensuke Harada
+  - Kiriakos N. Kutulakos
+  - Yasuyuki Matsushita
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-09-19T00:00:00Z'
+date: '2022-08-17T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -30,18 +28,19 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: "*Advanced Robotics, 37*(18):1143-1157"
+publication: "*IEEE Transactions on Pattern Analysis and Machine Intelligence, 45*(4):4355-4367"
 publication_short: 
 
-abstract: "Picking tasks in logistics warehouses requires handling many objects of various types, increasing daily. Therefore, high generalization performance is required for object detection in bin-picking systems in logistics warehouses, but conventional methods have yet to meet this requirement. We propose a Multi-modal Mask R-CNN (M3R-CNN) and its training method for that aim. M3R-CNN is a network for the instance-segmentation task that takes RGB and depth as input and obtains high generalizability with small training data. We trained this network with 561 scenes of training data using our proposed method and obtained a recognition accuracy of F1-score = 0.631 and mAP = 0.958 for unknown objects. We also performed an object-grasping experiment with a robot using the M3R-CNN and obtained an availability-score of 0.97."
+abstract: "We consider the problem of estimating surface normals of a scene with spatially varying, general bidirectional reflectance distribution functions (BRDFs) observed by a static camera under varying distant illuminations. Unlike previous approaches that rely on continuous optimization of surface normals, we cast the problem as a discrete search problem over a set of finely discretized surface normals. In this setting, we show that the expensive processes can be precomputed in a scene-independent manner, resulting in accelerated inference. We discuss two variants of our discrete search photometric stereo (DSPS), one working with continuous linear combinations of BRDF bases and the other working with discrete BRDFs sampled from a BRDF space. Experiments show that DSPS has comparable accuracy to state-of-the-art exemplar-based photometric stereo methods while achieving 10–100x acceleration."
 
 
 # Summary. An optional shortened abstract.
 # summary: We develop NeuraLeaf, the first neural parametric model for 3D leaves for plant modeling and reconstruction. 
 
 tags:
+  - TPAMI
   - Computer vision
-  - Bin picking
+  - Photometric stereo
 
 # Display this page in the Featured widget?
 featured: false
@@ -51,7 +50,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://doi.org/10.1080/01691864.2023.2257266'
+url_pdf: 'http://cvl.ist.osaka-u.ac.jp/wp-content/uploads/2022/08/enomoto2022discrete.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

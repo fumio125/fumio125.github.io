@@ -1,24 +1,22 @@
 ---
-title: 'M3R-CNN: On effective multi-modal fusion of RGB and depth cues for instance segmentation in bin-picking'
+title: 'Accuracy evaluation and prediction of single-image camera calibration'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Takao Nishi
-  - Shinya Kawasaki
-  - Kosuke Iewaki
+  - Susumu Kikkawa
   - admin
-  - Damien Petit
-  - Yoichi Takano
-  - Kensuke Harada
+  - Daigo Muramatsu
+  - Yasushi Yagi
+  - Hideo Saito
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-09-19T00:00:00Z'
+date: '2023-02-13T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -30,10 +28,10 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: "*Advanced Robotics, 37*(18):1143-1157"
+publication: "*IEEE Access, 11*:19312-19323"
 publication_short: 
 
-abstract: "Picking tasks in logistics warehouses requires handling many objects of various types, increasing daily. Therefore, high generalization performance is required for object detection in bin-picking systems in logistics warehouses, but conventional methods have yet to meet this requirement. We propose a Multi-modal Mask R-CNN (M3R-CNN) and its training method for that aim. M3R-CNN is a network for the instance-segmentation task that takes RGB and depth as input and obtains high generalizability with small training data. We trained this network with 561 scenes of training data using our proposed method and obtained a recognition accuracy of F1-score = 0.631 and mAP = 0.958 for unknown objects. We also performed an object-grasping experiment with a robot using the M3R-CNN and obtained an availability-score of 0.97."
+abstract: "This paper proposes an application to statistically predict the accuracy of single-image geometric camera calibration that uses given 2D-3D correspondences. Deriving both camera intrinsics and extrinsics from correspondences between a single image and a 3D shape, is important for the scene analysis when the optical system of the camera is lost, such as in the analyses of traffic accidents. It is unclear whether the single-image calibration will be successful in practice, particularly when the number of 2D-3D correspondences is small, even if we could assign accurate correspondences by manual labor. To this end, we perform a systematic evaluation of the camera parameter accuracy using synthetic environments. Based on the statistics observed during the experiments, our application predicts the calibration accuracy from simple variables (e.g., the area that correspondences could be given). Since the prediction process does not rely on 3D shapes, it provides an estimate of the success of the calibration before time-consuming processes, i.e., 3D scanning and 2D-3D correspondence mapping."
 
 
 # Summary. An optional shortened abstract.
@@ -41,7 +39,7 @@ abstract: "Picking tasks in logistics warehouses requires handling many objects 
 
 tags:
   - Computer vision
-  - Bin picking
+  - Forensics
 
 # Display this page in the Featured widget?
 featured: false
@@ -51,7 +49,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://doi.org/10.1080/01691864.2023.2257266'
+url_pdf: 'https://doi.org/10.1109/ACCESS.2023.3244212'
 url_code: ''
 url_dataset: ''
 url_poster: ''

@@ -1,24 +1,24 @@
 ---
-title: 'M3R-CNN: On effective multi-modal fusion of RGB and depth cues for instance segmentation in bin-picking'
+title: 'Shape and albedo recovery by your phone using stereoscopic flash and no-flash photography'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Takao Nishi
-  - Shinya Kawasaki
-  - Kosuke Iewaki
+  - Xu Cao
+  - Michael Waechter
+  - Boxin Shi
+  - Ye Gao
+  - Bo Zheng
   - admin
-  - Damien Petit
-  - Yoichi Takano
-  - Kensuke Harada
+  - Yasuyuki Matsushita
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-09-19T00:00:00Z'
+date: '2022-04-04T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -30,18 +30,19 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: "*Advanced Robotics, 37*(18):1143-1157"
+publication: "*International Journal of Computer Vision, 130*:1403-1415"
 publication_short: 
 
-abstract: "Picking tasks in logistics warehouses requires handling many objects of various types, increasing daily. Therefore, high generalization performance is required for object detection in bin-picking systems in logistics warehouses, but conventional methods have yet to meet this requirement. We propose a Multi-modal Mask R-CNN (M3R-CNN) and its training method for that aim. M3R-CNN is a network for the instance-segmentation task that takes RGB and depth as input and obtains high generalizability with small training data. We trained this network with 561 scenes of training data using our proposed method and obtained a recognition accuracy of F1-score = 0.631 and mAP = 0.958 for unknown objects. We also performed an object-grasping experiment with a robot using the M3R-CNN and obtained an availability-score of 0.97."
+abstract: "Recovering shape and albedo for the immense number of existing cultural heritage artifacts is challenging. Accurate 3D reconstruction systems are typically expensive and thus inaccessible to many and cheaper off-the-shelf 3D sensors often generate results of unsatisfactory quality. This paper presents a high-fidelity shape and albedo recovery method that only requires a stereo camera and a flashlight, a typical camera setup equipped in many off-the-shelf smartphones. The stereo camera allows us to infer rough shape from a pair of no-flash images, and a flash image is further captured for shape refinement based on our flash/no-flash image formation model. We verify the effectiveness of our method on real-world artifacts in indoor and outdoor conditions using smartphones with different camera/flashlight configurations. Comparison results demonstrate that our stereoscopic flash and no-flash photography benefits the high-fidelity shape and albedo recovery on a smartphone. Using our method, people can immediately turn their phones into high-fidelity 3D scanners, facilitating the digitization of cultural heritage artifacts."
 
 
 # Summary. An optional shortened abstract.
 # summary: We develop NeuraLeaf, the first neural parametric model for 3D leaves for plant modeling and reconstruction. 
 
 tags:
+  - IJCV
   - Computer vision
-  - Bin picking
+  - Photometric stereo
 
 # Display this page in the Featured widget?
 featured: false
@@ -51,7 +52,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://doi.org/10.1080/01691864.2023.2257266'
+url_pdf: 'http://cvl.ist.osaka-u.ac.jp/wp-content/uploads/2022/04/cao2022shape.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

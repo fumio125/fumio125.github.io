@@ -1,24 +1,21 @@
 ---
-title: 'M3R-CNN: On effective multi-modal fusion of RGB and depth cues for instance segmentation in bin-picking'
+title: 'Shuffled linear regression with outliers in both covariates and responses'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Takao Nishi
-  - Shinya Kawasaki
-  - Kosuke Iewaki
+  - Feiran Li
+  - Kent Fujiwara
   - admin
-  - Damien Petit
-  - Yoichi Takano
-  - Kensuke Harada
+  - Yasuyuki Matsushita
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-09-19T00:00:00Z'
+date: '2022-12-14T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -30,18 +27,19 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: "*Advanced Robotics, 37*(18):1143-1157"
+publication: "*International Journal of Computer Vision, 131*:732-751"
 publication_short: 
 
-abstract: "Picking tasks in logistics warehouses requires handling many objects of various types, increasing daily. Therefore, high generalization performance is required for object detection in bin-picking systems in logistics warehouses, but conventional methods have yet to meet this requirement. We propose a Multi-modal Mask R-CNN (M3R-CNN) and its training method for that aim. M3R-CNN is a network for the instance-segmentation task that takes RGB and depth as input and obtains high generalizability with small training data. We trained this network with 561 scenes of training data using our proposed method and obtained a recognition accuracy of F1-score = 0.631 and mAP = 0.958 for unknown objects. We also performed an object-grasping experiment with a robot using the M3R-CNN and obtained an availability-score of 0.97."
+abstract: "This paper studies a shuffled linear regression problem. As a variant of ordinary linear regression, it requires estimating not only the regression variable, but also permutational correspondences between the covariates and responses. While existing formulations require the underlying ground-truth correspondences to be an ideal bijection such that all pieces of data should match, such a requirement barely holds in real-world applications due to either missing data or outliers. In this work, we generalize the formulation of shuffled linear regression to a broader range of conditions where only a part of the data should correspond. To this end, the effective recovery condition and NP-hardness of the proposed formulation are also studied. Moreover, we present a simple yet effective algorithm for deriving the solution. Its global convergence property and convergence rate are also analyzed in detail. Distinct tasks validate the effectiveness of our proposed formulation and the solution method."
 
 
 # Summary. An optional shortened abstract.
 # summary: We develop NeuraLeaf, the first neural parametric model for 3D leaves for plant modeling and reconstruction. 
 
 tags:
+  - IJCV
   - Computer vision
-  - Bin picking
+  - Geometry
 
 # Display this page in the Featured widget?
 featured: false
@@ -51,7 +49,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://doi.org/10.1080/01691864.2023.2257266'
+url_pdf: 'https://doi.org/10.1007/s11263-022-01709-2'
 url_code: ''
 url_dataset: ''
 url_poster: ''
