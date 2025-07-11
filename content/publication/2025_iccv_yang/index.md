@@ -16,7 +16,7 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-01T00:00:00Z'
+date: '2025-10-19T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -49,8 +49,8 @@ featured: true
 #   url: http://example.org
 
 url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_code: 'https://neuraleaf-yang.github.io/'
+url_dataset: 'https://neuraleaf-yang.github.io/'
 url_poster: ''
 url_project: 'https://neuraleaf-yang.github.io/'
 url_slides: ''
