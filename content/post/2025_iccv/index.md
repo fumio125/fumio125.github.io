@@ -3,7 +3,7 @@ title: 🎉 Two papers are accepted to ICCV 2025!
 summary: Congratulations for our great students and colleagues!
 date: 2025-06-26
 authors:
-  - admin
+  - admin_en
 tags:
   - ICCV 2025
   - Computer vision
