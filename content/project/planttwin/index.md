@@ -7,6 +7,6 @@ tags:
   - Plant phenomics
 ---
 
-The ultimate goal of this research is the complete virtualization of plants from sensing data, i.e., the generation of a plant digital twin. This research focuses particularly on technical elements related to computer vision, and reproduces not only the shape of the plant from a set of images taken of the plant, but also its branch and leaf structure, time-series changes, etc., including occluded areas. The virtualized plant model enables simulation and mapping to genes, and is a powerful tool for automating cultivation and accelerating breeding.
+We aim the complete virtualization of plants from sensing data, i.e., the generation of a plant digital twin.
 
 <!--more-->
