@@ -152,6 +152,9 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Reviewer (regurarly)
+    date: '2099-01-01'
+    awarder: CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, AAAI, ISMAR, TPAMI, IJCV, etc. 
   - title: Area Chair, NeurIPS 2025
     url: https://neurips.cc/
     date: '2025-12-02'
@@ -175,7 +178,7 @@ awards:
   - title: Associate Editor, Plant Phenomics
     url: https://www.sciencedirect.com/journal/plant-phenomics
     date: '2018-09-01'
-    awarder: Plant Phenomics
+    awarder: Plant Phenomics  
 ---
 
 ## About Me
