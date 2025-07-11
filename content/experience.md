@@ -28,6 +28,10 @@ sections:
     content:
       title: Awards
       username: admin
+  - block: resume-social
+    content:
+      title: Social Activities
+      username: admin
   - block: resume-languages
     content:
       title: Languages
