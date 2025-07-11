@@ -31,7 +31,7 @@ sections:
   - block: resume-awards
     content:
       title: Social Activities
-      username: admin
+      username: admin_en
   - block: resume-languages
     content:
       title: Languages
