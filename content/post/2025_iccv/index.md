@@ -10,3 +10,11 @@ tags:
 # image:
 #   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
+
+🎉 Congratulations, Yang-san and Makabe-san!
+
+-Yang Yang, Dongni Mao, Hiroaki Santo, Yasuyuki Matsushita, Fumio Okura (2025). NeuraLeaf: Neural parametric leaf models with shape and deformation disentanglement. In ICCV 2025.
+
+-Lilika Makabe, Hiroaki Santo, Fumio Okura, Michael S. Brown, Yasuyuki Matsushita (2025). Spectral sensitivity estimation with an uncalibrated diffraction grating. In ICCV 2025.
+
+We also have two paper presentation from our lab (which I have not co-authored) from Shinoda-sensei.
