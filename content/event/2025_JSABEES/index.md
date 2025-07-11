@@ -17,7 +17,7 @@ summary: 'オーガナイズドセッション「ゲームエンジンで探る�
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-07-30'
+date: '2025-09-16T9:30:00Z'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
