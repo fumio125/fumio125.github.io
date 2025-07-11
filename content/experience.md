@@ -26,11 +26,11 @@ sections:
       show_skill_percentage: false
   - block: resume-awards
     content:
-      title: Awards
+      title: Awards (Selected)
       username: admin
   - block: resume-awards
     content:
-      title: Social Activities
+      title: Social Activities (Selected)
       username: admin_en
   - block: resume-languages
     content:

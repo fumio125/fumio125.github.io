@@ -152,13 +152,16 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: IPSJ/IEEE-Computer Society Young Computer Researcher Award
+    url: https://accv2020.github.io/
+    date: '2023-01-27'
+    awarder: IPSJ/IEEE Computer Society
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+      Outstanding research on computer vision techniques which advanced the analysis and classification of botanical plants
+  - title: Outstanding Reviewer
+    url: https://accv2020.github.io/
+    date: '2020-11-30'
+    awarder: Asian Conference on Computer Vision (ACCV2020)
 ---
 
 ## About Me
@@ -166,3 +169,5 @@ awards:
 I am an associate professor in <a href="http://cvl.ist.osaka-u.ac.jp/" target="_blank">Computer Vision Laboratory</a>, Graduate School of Information Science and Technology, The University of Osaka, working with (Guest) Professor Yasuyuki Matsushita and Assistant Professor Hiroaki Santo. I recently found the <a href="https://sites.google.com/view/cvl-osaka/" target="_blank">Computer Vision League Osaka (CVL-Osaka)</a> alliance gathering CV reseachers around Osaka.
 
 Until March 2020, I was an assistant professor at the Department of Intelligent Media (Yagi Lab.). I received my Ph.D. (Doctor of Engineering) in March 2014 from Nara Institute of Science and Technology (NAIST), Japan, under the supervision of Professor Naokazu Yokoya in Vision and Media Computing Lab. After receiving my Ph.D., I visited the REVES group at INRIA Sophia-Antipolis, France and worked with Dr. George Drettakis, Dr. Adrien Bousseau, and Dr. Kenneth Vanhoey in collaboration with Professor Alyosha Efros (UC Berkeley). From 2017 to 2021, I was also a researcher in JST PRESTO (さきがけ), "Innovational technical basis for cultivation in cooperation with information science" (情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出) research area.
+
+Please refer to <a href="https://researchmap.jp/okura.fumio" target="_blank">researchmap</a> for full publication lists and awards including Japanese domestic conferences.
