@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 大倉 史生
+title: Fumio Okura
 
 # Name pronunciation (optional)
-name_pronunciation: Fumio Okura
+name_pronunciation: 大倉 史生
 
 # Full name (for SEO)
 first_name: Fumio
@@ -145,7 +145,7 @@ languages:
   - name: Japanese
     percent: 99
   - name: English
-    percent: 75
+    percent: 60
 
 # Awards.
 #   Add/remove as many awards below as you like.

@@ -9,7 +9,7 @@ authors:
   - Dongni Mao
   - Hiroaki Santo
   - Yasuyuki Matsushita
-  - admin_en
+  - admin
 
 # Author notes (optional)
 # author_notes:

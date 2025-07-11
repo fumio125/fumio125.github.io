@@ -7,7 +7,7 @@ title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating
 authors:
   - Lilika Makabe
   - Hiroaki Santo
-  - admin_en
+  - admin
   - Michael S. Brown
   - Yasuyuki Matsushita
 
