@@ -1,6 +1,6 @@
 ---
-title: PlantTwin
-date: 2021-04-01
+title: Plant Twin
+date: 2025-07-01
 external_link: https://www.hpc.cmc.osaka-u.ac.jp/en/hpsc-news/vol18/
 tags:
   - Computer vision
