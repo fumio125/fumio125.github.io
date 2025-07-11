@@ -38,7 +38,8 @@ abstract: We develop a neural parametric model for 3D leaves for plant modeling 
 summary: We develop NeuraLeaf, the first neural parametric model for 3D leaves for plant modeling and reconstruction. 
 
 tags:
-  - Plant vision
+  - Computer vision
+  - Plant phenomics
 
 # Display this page in the Featured widget?
 featured: true
