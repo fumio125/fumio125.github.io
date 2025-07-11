@@ -34,11 +34,12 @@ abstract: Accurate estimation of plant skeletal structure (e.g., branching struc
 
 
 # Summary. An optional shortened abstract.
-summary: We develop HoGS, combining 3DGS with homogeneous coordinates for high-quality rendering. 
+summary: We develop TreeFormer, accurately estimating plant skeletal structure from a single image.
 
 tags:
-  - CVPR 2025
+  - WACV 2025
   - Computer vision
+  - Plant phenotyping
 
 # Display this page in the Featured widget?
 featured: true
