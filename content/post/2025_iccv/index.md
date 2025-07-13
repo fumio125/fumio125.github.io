@@ -1,9 +1,9 @@
 ---
 title: 🎉 Two papers are accepted to ICCV 2025!
-summary: Congratulations for our great students and colleagues!
+summary: Congratulations for Yang-san and Makabe-san for your great works! See you in Hawaii🌺
 date: 2025-06-26
 authors:
-  - admin_en
+  - admi
 tags:
   - ICCV 2025
   - Computer vision
@@ -11,7 +11,7 @@ tags:
 #   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-🎉 Congratulations, Yang-san and Makabe-san!
+🎉 Congratulations, Yang-san and Makabe-san! We wil present the following papers in ICCV 2025 in Hawaii🌺
 
 - Yang Yang, Dongni Mao, Hiroaki Santo, Yasuyuki Matsushita, Fumio Okura (2025). NeuraLeaf: Neural parametric leaf models with shape and deformation disentanglement. In ICCV 2025.
 
