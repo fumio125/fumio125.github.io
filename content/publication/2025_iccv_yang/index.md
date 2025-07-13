@@ -55,7 +55,7 @@ url_pdf: ''
 url_code: 'https://neuraleaf-yang.github.io/'
 url_dataset: 'https://neuraleaf-yang.github.io/'
 url_poster: ''
-url_project: ''
+url_project: 'https://neuraleaf-yang.github.io/'
 url_slides: ''
 url_source: ''
 url_video: ''
@@ -72,8 +72,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - planttwin
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

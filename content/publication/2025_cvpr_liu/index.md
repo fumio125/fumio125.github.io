@@ -51,10 +51,10 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/2503.19232'
-url_code: 'https://kh129.github.io/hogs/'
-url_dataset: 'https://kh129.github.io/hogs/'
+url_code: 'https://github.com/huntorochi/HoGS'
+url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://kh129.github.io/hogs/'
 url_slides: ''
 url_source: ''
 url_video: 'https://youtu.be/T55KhFhRcoQ'
@@ -71,8 +71,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
