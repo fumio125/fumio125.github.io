@@ -1,9 +1,10 @@
 ---
-title: Computational Photography
+title: 3D Reconstruction
 date: 2025-04-01
 external_link: http://cvl.ist.osaka-u.ac.jp/en/kiban-s_photogrammetry/
 tags:
   - Computer vision
+  - Photogrammetry
   - Computational Photography
 ---
 
