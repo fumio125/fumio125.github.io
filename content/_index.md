@@ -73,7 +73,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Recent Featured Publications
       filters:
         folders:
           - publication
