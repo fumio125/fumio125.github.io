@@ -1,22 +1,20 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Augmented telepresence using autopilot airship and omni-directional camera'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
-  - Hiroaki Santo
   - admin
-  - Michael S. Brown
-  - Yasuyuki Matsushita
+  - Masayuki Kanbara
+  - Naokazu Yokoya
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2010-10-13T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,30 +26,29 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2010)*
+publication_short: In *ISMAR 2010*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "This study is concerned with a large-scale telepresence system based on remote control of mobile robot or aerial vehicle. The proposed system provides a user with not only view of remote site but also related information by AR technique. Such systems are referred to as augmented telepresence in this paper. Aerial imagery can capture a wider area at once than image capturing from the ground. However, it is difficult for a user to change position and direction of viewpoint freely because of the difficulty in remote control and limitation of hardware. To overcome these problems, the proposed system uses an autopilot airship to support changing user's viewpoint and employs an omni-directional camera for changing viewing direction easily. This paper describes hardware configuration for aerial imagery, an approach for overlaying virtual objects, and automatic control of the airship, as well as experimental results using a prototype system."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+# summary: We resolve the scale ambiguity in multi-view 3D reconstruction with dual-pixel imaging. 
 
 tags:
-  - ICCV 2025
-  - ICCV
-  - Computer vision
-  - Computational photography
+  - ISMAR 2010
+  - ISMAR
+  - Mixed reality
 
 # Display this page in the Featured widget?
-featured: true
+featured: false 
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'http://yokoya.naist.jp/paper/datas/1182/2010ISMAR_okura.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,7 +60,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +69,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

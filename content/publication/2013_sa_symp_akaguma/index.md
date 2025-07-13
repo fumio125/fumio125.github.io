@@ -1,22 +1,21 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Mobile AR using pre-captured omnidirectional images'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
-  - Hiroaki Santo
   - admin
-  - Michael S. Brown
-  - Yasuyuki Matsushita
+  - Takayuki Akaguma
+  - Tomokazu Sato
+  - Naokazu Yokoya
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2013-11-19T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,30 +27,30 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *ACM SIGGRAPH Asia 2013 Symposium on Mobile Graphics and Interactive Applications (MGIA 2013)*
+publication_short: In *MGIA 2013*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "In the field of augmented reality (AR), geometric and photometric registration is routinely achieved in real time. However, real-time geometric registration often leads to misalignment (e.g., jitter and drift) due to the error from camera pose estimation. Due to limited resources on mobile devices, it is also difficult to implement state-of-the-art techniques for photometric registration on mobile AR systems. In order to solve these problems, we developed a mobile AR system in a significantly different way from conventional systems. In this system, captured omnidirectional images and virtual objects are registered geometrically and photometrically in an offline rendering process. The appropriate part of the prerendered omnidirectional AR image is shown to a user through a mobile device with online registration between the real world and the pre-captured image. In order to investigate the validity of our new framework for mobile AR, we conducted experiments using the prototype system on a real site in Todai-ji Temple, a famous world cultural heritage site in Japan."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+# summary: We resolve the scale ambiguity in multi-view 3D reconstruction with dual-pixel imaging. 
 
 tags:
-  - ICCV 2025
-  - ICCV
-  - Computer vision
-  - Computational photography
+  - MGIA 2013
+  - MGIA
+  - Mixed reality
+  - Augumented reality
 
 # Display this page in the Featured widget?
-featured: true
+featured: false 
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'http://yokoya.naist.jp/paper/datas/1323/akaguma2013.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,7 +62,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +71,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

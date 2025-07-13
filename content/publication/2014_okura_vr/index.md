@@ -36,7 +36,7 @@ abstract: "This paper describes a framework for aerial imaging of high dynamic r
 # summary: We develop NeuraLeaf, the first neural parametric model for 3D leaves for plant modeling and reconstruction. 
 
 tags:
-  - Virtual reality
+  - Mixed reality
   - High-dynamic imaging
 
 # Display this page in the Featured widget?

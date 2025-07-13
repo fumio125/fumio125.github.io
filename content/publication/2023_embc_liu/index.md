@@ -1,22 +1,22 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Two-stream graph convolutional networks with task-specific loss for dual-task gait analysis'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
-  - Hiroaki Santo
+  - Jiaqing Liu
+  - Shuqiong Wu
   - admin
-  - Michael S. Brown
-  - Yasuyuki Matsushita
+  - Yasushi Makihara
+  - Yasushi Yagi
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2023-07-24T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,30 +28,30 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC 2023)*
+publication_short: In *EMBC 2023*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "Dual-task gait systems can be utilized to assess elderly patients for cognitive decline. Although numerous research studies have been conducted to estimate cognitive scores, this field still faces two significant challenges. Firstly, it is crucial to fully utilize dual-task cost representations for diagnosis. Secondly, the design of optimal strategies for effectively extracting dual-task cost representations remains a challenge. To address these issues, in this paper, we propose a deep learning-based framework that implements a spatio-temporal graph convolutional neural network (ST-GCN) with single-task and dual-task pathways for cognitive impairment detection in gait. We also introduce a novel loss, termed task-specific loss, to ensure that single-task and dual-task representations are distinguishable from each other. Furthermore, dual-task cost representations are calculated as the difference between dual-task and single-task representations, which are resilient to individual differences and contribute to the robustness of the framework. These representations provide a comprehensive view of single-task and dual-task gait information to generate task predictions. The proposed framework outperforms existing approaches with a sensitivity of 0.969 and a specificity of 0.940 for cognitive impairment detection."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+#summary: We develop TreeFormer, accurately estimating plant skeletal structure from a single image.
 
 tags:
-  - ICCV 2025
-  - ICCV
-  - Computer vision
-  - Computational photography
+  - EMBC 2023
+  - EMBC
+  - Biomedical
+  - Dual tak
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://ieeexplore.ieee.org/document/10339953'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,7 +63,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +72,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

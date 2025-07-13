@@ -1,22 +1,20 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Synthesizing time-varying BRDFs via latent space'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
+  - Takuto Narumoto
   - Hiroaki Santo
   - admin
-  - Michael S. Brown
-  - Yasuyuki Matsushita
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2024-09-29T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,20 +26,20 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *European Conference on Computer Vision (ECCV 2024)*
+publication_short: In *ECCV 2024*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "This paper introduces a method for synthesizing time-varying bidirectional reflectance distribution functions (BRDFs) by applying learned temporal changes to static BRDFs. Achieving realistic and natural changes in material appearance over time is crucial in computer graphics and virtual reality. Existing methods employ a parametric BRDF model, and the temporal changes in BRDFs are modeled by polynomial functions that represent the transitions of the BRDF parameters. However, the limited representational capabilities of both the parametric BRDF model and the polynomial temporal model restrict the fidelity of the appearance reproduction. In this paper, to overcome this limitation, we introduce a neural embedding for BRDFs and propose a neural temporal model that represents the temporal changes of BRDFs in the latent space, which allows flexible representations of BRDFs and temporal changes. The experiments using synthetic and real-world datasets demonstrate that the flexibility of the proposed approach achieves a faithful synthesis of temporal changes in material appearance."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+summary: We synthisize time-varying BRDFs by applying learned temporal changes to static BRDFs.
 
 tags:
-  - ICCV 2025
-  - ICCV
+  - ECCV 2024
+  - ECCV
   - Computer vision
-  - Computational photography
+  - Computer graphics
 
 # Display this page in the Featured widget?
 featured: true
@@ -51,8 +49,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://eccv.ecva.net/virtual/2024/poster/1289'
+url_code: 'https://github.com/naru-19/eccv2024-synthesizing-time-varying-BRDFs-via-latent-space'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -63,7 +61,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: 'Synthesizing time-varying BRDFs'
   focal_point: ''
   preview_only: false
 
@@ -72,8 +70,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

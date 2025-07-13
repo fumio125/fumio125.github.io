@@ -1,14 +1,14 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Near-light photometric stereo with symmetric lights'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
+  - Lilika Maakabe
+  - Heng Guo
   - Hiroaki Santo
   - admin
-  - Michael S. Brown
   - Yasuyuki Matsushita
 
 # Author notes (optional)
@@ -16,7 +16,7 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2023-07-28T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,30 +28,30 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *International Conference on Computational Photography (ICCP 2023)*
+publication_short: In *ICCP 2023*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "This paper describes a linear solution method for near-light photometric stereo by exploiting symmetric light source arrangements. Unlike conventional non-convex optimization approaches, by arranging multiple sets of symmetric nearby light source pairs, our method derives a closed-form solution for surface normal and depth without requiring initialization. In addition, our method works as long as the light sources are symmetrically distributed about an arbitrary point even when the entire spatial offset is uncalibrated. Experiments showcase the accuracy of shape recovery accuracy of our method, achieving comparable results to the state-of-the-art calibrated near-light photometric stereo method while significantly reducing requirements of careful depth initialization and light calibration."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+# summary: We resolve the scale ambiguity in multi-view 3D reconstruction with dual-pixel imaging. 
 
 tags:
-  - ICCV 2025
-  - ICCV
+  - ICCP 2023
+  - ICCP
   - Computer vision
   - Computational photography
 
 # Display this page in the Featured widget?
-featured: true
+featured: false 
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://ieeexplore.ieee.org/document/10233833/'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,7 +63,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +72,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

@@ -1,22 +1,21 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Predicting future cognitive decline from long-term observations of dual-task performance data'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
-  - Hiroaki Santo
+  - Shuqiong Wu
+  - Tomoya Noguchi
   - admin
-  - Michael S. Brown
-  - Yasuyuki Matsushita
+  - Yasushi Yagi
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2024-11-10T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,23 +27,23 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI 2024)*
+publication_short: In *BHI 2024*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "Early stage detection of cognitive decline is crucial for effective prevention and treatment of dementia. However, current approaches based on MRI or biomarkers are expensive and impractical, making them unsuitable for early-stage detection from daily measurements. A suitable option is the dual-task paradigm, which involves simultaneously performing two tasks (typically a physical task combined with a cognitive task). This approach has proven effective in assessing daily cognitive status. The underlying principle is that dual-task performance reflects the maximum cognitive load that can be handled by participants, which in turn reflects their current cognitive function. However, a one-time dual-task test cannot predict future changes in cognitive function. In this study, we present the first attempt at leveraging long-term observations of dual-task performance data. Our results show that changes in dual-task performance over time are associated with future cognitive changes. Our approach extracts temporal features from six months of dual-task performance data, and predicts future cognitive decline over the next two years using a machine learning model. Our experimental results yielded an accuracy comparable to that returned by MRI scans, thus demonstrating that the proposed approach can achieve early detection of future cognitive decline from routine dual-task measurements."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+#summary: We develop TreeFormer, accurately estimating plant skeletal structure from a single image.
 
 tags:
-  - ICCV 2025
-  - ICCV
-  - Computer vision
-  - Computational photography
+  - BHI 2024
+  - BHI
+  - Biomedical
+  - Dual tak
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
@@ -63,7 +62,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +71,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

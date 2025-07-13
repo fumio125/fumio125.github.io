@@ -38,7 +38,9 @@ summary: We develop HoGS, combining 3DGS with homogeneous coordinates for high-q
 
 tags:
   - CVPR 2025
+  - CVPR
   - Computer vision
+  - Gaussian splatting
 
 # Display this page in the Featured widget?
 featured: true

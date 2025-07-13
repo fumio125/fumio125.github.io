@@ -1,22 +1,24 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Predicting molecular interactions by graph convolutional neural networks with global features'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
+  - Kaito Fukui
+  - Qingwen Chen
   - Hiroaki Santo
   - admin
-  - Michael S. Brown
+  - Takeshi Yamada
   - Yasuyuki Matsushita
+  - Kazuhiko Nakatani
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2023-11-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,23 +30,21 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *International Symposium on Nucleic Acids Chemistry (ISNAC 2023)*
+publication_short: In *ISNAC 2023*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "Multi-view photometric stereo (MVPS) recovers a high-fidelity 3D shape of a scene by benefiting from both multi-view stereo and photometric stereo. While photometric stereo boosts detailed shape reconstruction it necessitates recording images under various light conditions for each viewpoint. In particular calibrating the light directions for each view significantly increases the cost of acquiring images. To make MVPS more accessible we introduce a practical and easy-to-implement setup multi-view constrained photometric stereo (MVCPS) where the light directions are unknown but constrained to move together with the camera. Unlike conventional multi-view uncalibrated photometric stereo our constrained setting reduces the ambiguities of surface normal estimates from per-view linear ambiguities to a single and global linear one thereby simplifying the disambiguation process. The proposed method integrates the ambiguous surface normal into neural surface reconstruction (NeuS) to simultaneously resolve the global ambiguity and estimate the detailed 3D shape. Experiments demonstrate that our method estimates accurate shapes under sparse viewpoints using only a few multi-view constrained light sources."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+# summary: We resolve the scale ambiguity in multi-view 3D reconstruction with dual-pixel imaging. 
 
 tags:
-  - ICCV 2025
-  - ICCV
-  - Computer vision
-  - Computational photography
+  - ISNAC 2023
+  - Biomedical
 
 # Display this page in the Featured widget?
-featured: true
+featured: false 
 
 # Custom links (uncomment lines below)
 # links:
@@ -63,7 +63,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +72,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

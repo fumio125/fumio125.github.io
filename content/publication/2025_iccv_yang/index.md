@@ -39,6 +39,7 @@ summary: We develop NeuraLeaf, the first neural parametric model for 3D leaves f
 
 tags:
   - ICCV 2025
+  - ICCV
   - Computer vision
   - Plant phenomics
 

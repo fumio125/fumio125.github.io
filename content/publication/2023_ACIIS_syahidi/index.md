@@ -1,22 +1,20 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Computer vision in smart city application: A mapping review'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
-  - Hiroaki Santo
+  - Aulia Akhrian Syahidi
+  - Kiyoshi Kiyokawa
   - admin
-  - Michael S. Brown
-  - Yasuyuki Matsushita
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2023-10-23T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,30 +26,28 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *International Conference on Applied Computational Intelligence in Information Systems (ACIIS 2023)*
+publication_short: In *ACIIS 2023*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "Research interest in the application of Computer Vision (CV) in the context of smart cities has grown significantly in recent years. However, finding relevant studies in databases can be challenging due to the use of non-explicit or varying terms. To address this issue, this research aims to conduct a literature review by collecting papers that discuss the application of CV for smart city needs. The method used is a mapping review, with the following stages: 1) Establishing research questions; 2) Selecting relevant reference sources based on relevant databases; 3) Identifying appropriate keywords; 4) Conducting screening based on criteria; and 5) Extracting and synthesizing relevant data. For this research, we selected a total of 35 papers as the primary review. Our findings show that research trends and interests vary widely, with the most prevalent being in smart mobility components, which on average come from the IEEE Xplore Digital Library database. YOLO and CNN algorithms are also widely used to solve problems. Furthermore, we conclude that there are many benefits to be gained from the application of this technology to support the sustainable development of smart cities, including ensuring the quality of life of their inhabitants."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+# summary: We resolve the scale ambiguity in multi-view 3D reconstruction with dual-pixel imaging. 
 
 tags:
-  - ICCV 2025
-  - ICCV
+  - ACIIS 2023
   - Computer vision
-  - Computational photography
 
 # Display this page in the Featured widget?
-featured: true
+featured: false 
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://ieeexplore.ieee.org/document/10367332'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,7 +59,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +68,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

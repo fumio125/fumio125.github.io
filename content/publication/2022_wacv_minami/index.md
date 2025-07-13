@@ -1,14 +1,13 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Symmetric-light photometric stereo'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
+  - Kazuma Minami
   - Hiroaki Santo
   - admin
-  - Michael S. Brown
   - Yasuyuki Matsushita
 
 # Author notes (optional)
@@ -16,7 +15,7 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2022-01-03T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,30 +27,30 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2022)*
+publication_short: In *WACV 2022*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "This paper presents symmetric-light photometric stereo for surface normal estimation, in which directional lights are distributed symmetrically with respect to the optic center. Unlike previous studies of ring-light settings that required the information of ring radius, we show that even without the knowledge of the exact light source locations or their distances from the optic center, the symmetric configuration provides us sufficient information for recovering unique surface normals without ambiguity. Specifically, under the symmetric lights, measurements of a pair of scene points having distinct surface normals but the same albedo yield a system of constrained quadratic equations about the surface normal, which has a unique solution. Experiments demonstrate that the proposed method alleviates the need for geometric light source calibration while maintaining the accuracy of calibrated photometric stereo."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+# summary: We develop TreeFormer, accurately estimating plant skeletal structure from a single image.
 
 tags:
-  - ICCV 2025
-  - ICCV
+  - WACV 2022
+  - WACV
   - Computer vision
-  - Computational photography
+  - Photometric stereo
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://openaccess.thecvf.com/content/WACV2022/html/Minami_Symmetric-Light_Photometric_Stereo_WACV_2022_paper.html'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,7 +62,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +71,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

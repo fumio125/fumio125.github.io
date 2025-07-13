@@ -1,22 +1,23 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Early detection of low cognitive scores from dual-task performance data using a spatio-temporal graph convolutional neural network'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
-  - Hiroaki Santo
+  - Shuqiong Wu
   - admin
-  - Michael S. Brown
-  - Yasuyuki Matsushita
+  - Yasushi Makihara
+  - Kota Aoki
+  - Masataka Niwa
+  - Yasushi Yagi
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2021-11-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,30 +29,30 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC 2021)*
+publication_short: In *EMBC 2021*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "Detecting low cognitive scores at an early stage is important for delaying the progress of dementia. Investigations of early-stage detection have employed automatic assessment using dual-task (i.e., performing two different tasks simultaneously). However, current approaches to dual-task-based detection are based on either simple features or limited motion information, which degrades the detection accuracy. To address this problem, we proposed a framework that uses graph convolutional networks to extract spatio-temporal features from dual-task performance data. Moreover, to make the proposed method robust against data imbalance, we devised a loss function that directly optimizes the summation of the sensitivity and specificity of the detection of low cognitive scores (i.e., score ≤ 23 or score ≤ 27). Our evaluation is based on 171 subjects from 6 different senior citizens' facilities. Our experimental results demonstrated that the proposed algorithm considerably outperforms the previous standard with respect to both the sensitivity and specificity of the detection of low cognitive scores."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+#summary: We develop TreeFormer, accurately estimating plant skeletal structure from a single image.
 
 tags:
-  - ICCV 2025
-  - ICCV
-  - Computer vision
-  - Computational photography
+  - EMBC 2023
+  - EMBC
+  - Biomedical
+  - Dual tak
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'http://cvl.ist.osaka-u.ac.jp/user/okura/paper/EMBC2021_wu.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,7 +64,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +73,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

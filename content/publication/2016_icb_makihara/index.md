@@ -1,22 +1,26 @@
 ---
-title: 'Spectral sensitivity estimation with an uncalibrated diffraction grating'
+title: 'Gait Collector: An automatic gait data collection system in conjunction with an experience-based long-run exhibition'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lilika Makabe
-  - Hiroaki Santo
+  - Yasushi Makihara
+  - Takuhiro Kimura
   - admin
-  - Michael S. Brown
-  - Yasuyuki Matsushita
+  - Ikuhisa Mitsugami
+  - Masataka Niwa
+  - Chihiro Aoki
+  - Atsuyuki Suzuki
+  - Daigo Muramatsu
+  - Yasushi Yagi
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-19T00:00:00Z'
+date: '2016-06-13T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,30 +32,30 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2025)*
-publication_short: In *ICCV 2025*
+publication: In *IAPR International Conference on Biometrics (ICB 2016)*
+publication_short: In *ICB 2016*
 
-abstract: This paper introduces a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating. Accurate calibration of camera spectral sensitivity is crucial for various computer vision tasks, including color correction, illumination estimation, and material analysis. Unlike existing approaches that require specialized narrow-band filters or reference targets with known spectral reflectances, our method only requires an uncalibrated diffraction grating sheet, readily available off-the-shelf. By capturing images of the direct illumination and its diffracted pattern through the grating sheet, our method estimates both the camera's spectral sensitivity and the diffraction grating parameters in a closed-form manner. Experiments on synthetic and real-world data demonstrate that our approach outperforms reference target-based methods, underscoring its effectiveness and practicality.
+abstract: "Biometric data collection is an important first step toward biometrics research practice, although it is a considerably laborious task, particularly for behavioral biometrics such as gait. We therefore propose an automatic gait data collection system in conjunction with an experience-based exhibition. In the exhibition, participants enjoy an attractive online demonstration of state-of-the-art video-based gait analysis comprising intuitive gait feature measurement and gait-based age estimation while we simultaneously collect their gait data along with informed consent. At the time of this publication, we are holding the exhibition in association with a science museum and have successfully collected the gait data of 47,615 subjects over 246 days, which has already exceeded the size of the largest existing gait database in the world."
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce a practical and accurate calibration method for camera spectral sensitivity using a diffraction grating.
+# summary: We resolve the scale ambiguity in multi-view 3D reconstruction with dual-pixel imaging. 
 
 tags:
-  - ICCV 2025
-  - ICCV
+  - ICB 2016
+  - ICB
   - Computer vision
-  - Computational photography
+  - Gait analysiss
 
 # Display this page in the Featured widget?
-featured: true
+featured: false 
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'http://cvl.ist.osaka-u.ac.jp/user/okura/paper/ICB2016.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -63,7 +67,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Spectral Sensitivity Estimation with an Uncalibrated Diffraction Grating'
+  caption: ''
   focal_point: ''
   preview_only: false
 
@@ -72,8 +76,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - cp
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
