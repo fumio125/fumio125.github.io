@@ -1,10 +1,10 @@
 ---
-title: 'Agricultural development using digital technologies and best practices from Japan @ Thai'
+title: '多視点画像からの植物の三次元構造復元に向けて @ 農業情報学会'
 
-event: 'International Cooperation on Digital and Smart Manufacturing Technology in the Agro-processing Industry'
-event_url: https://sympo.adthree.net/jbaees2024/p_sympo.html
+event: '農業情報学会2021年度 年次大会 オーガナイズドセッション「JSTさきがけプロジェクト「情報協働栽培」から」'
+event_url: 'https://www.jsai.or.jp/%E5%B9%B4%E6%AC%A1%E5%A4%A7%E4%BC%9A%E7%AD%89/%E5%B9%B4%E6%AC%A1%E5%A4%A7%E4%BC%9A'
 
-location: Thailand
+location: Online
 # address:
 #   street: 450 Serra Mall
 #   city: Stanford
@@ -12,12 +12,12 @@ location: Thailand
 #   postcode: '94305'
 #   country: United States
 
-summary: 'I talked regarding the comptuer vision and plants.'
+summary: 'コンピュータビジョン後術を用いた多視点画像からの植物の三次元構造復元について話しました。'
 # abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-09-05'
+date: '2021-05-21'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: true
 

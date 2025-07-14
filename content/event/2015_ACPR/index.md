@@ -1,10 +1,10 @@
 ---
-title: 'Agricultural development using digital technologies and best practices from Japan @ Thai'
+title: 'Automatically acquiring walking-related behavior of 100,000 people @ International Workshop on Human Behavior Analysis in the Real World'
 
-event: 'International Cooperation on Digital and Smart Manufacturing Technology in the Agro-processing Industry'
-event_url: https://sympo.adthree.net/jbaees2024/p_sympo.html
+event: 'International Workshop on Human Behavior Analysis in the Real World (in conjunction with ACPR2015)'
+event_url: 'https://acpr2015.org/'
 
-location: Thailand
+location: Kuala Lumpur, Malaysia
 # address:
 #   street: 450 Serra Mall
 #   city: Stanford
@@ -12,12 +12,12 @@ location: Thailand
 #   postcode: '94305'
 #   country: United States
 
-summary: 'I talked regarding the comptuer vision and plants.'
+summary: 'I talked about large-scale gait acquisition.'
 # abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-09-05'
+date: '2015-11-03'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: true
 
