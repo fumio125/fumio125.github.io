@@ -1,5 +1,5 @@
 ---
-title: 🎉 Two papers are accepted to ECCV 2024!
+title: 🎉 Two papers were accepted to ECCV 2024!
 summary: Congrats for Narumoto-san and Ashida-san for your great works!
 date: 2024-07-01
 authors:
