@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Fumio Okura. This work is licensed under {license}'
+    notice: '© {year} Fumio Okura.'
     license:
       enable: true
       allow_derivatives: false
