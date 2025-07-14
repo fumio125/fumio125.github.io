@@ -86,7 +86,7 @@ sections:
     content:
       title: Recent Publications
       count: 6
-      text: ""
+      text: '<a href="./publication_types/">Publications by type</a>'
       filters:
         folders:
           - publication
