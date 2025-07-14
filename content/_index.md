@@ -85,6 +85,7 @@ sections:
   - block: collection
     content:
       title: Recent Publications
+      count: 6
       text: ""
       filters:
         folders:
