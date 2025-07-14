@@ -16,7 +16,7 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2021-06-20T00:00:00Z'
+date: '2018-06-18T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,8 +28,8 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2021)*
-publication_short: In *CVPR 2021*
+publication: In *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2018)*
+publication_short: In *CVPR 2018*
 
 abstract: "This paper describes a method for inferring three-dimensional (3D) plant branch structures that are hidden under leaves from multi-view observations. Unlike previous geometric approaches that heavily rely on the visibility of the branches or use parametric branching models, our method makes statistical inferences of branch structures in a probabilistic framework. By inferring the probability of branch existence using a Bayesian extension of image-to-image translation applied to each of multi-view images, our method generates a probabilistic plant 3D model, which represents the 3D branching pattern that cannot be directly observed. Experiments demonstrate the usefulness of the proposed approach in generating convincing branch structures in comparison to prior approaches."
 
