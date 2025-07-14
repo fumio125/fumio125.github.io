@@ -17,4 +17,4 @@ tags:
 
 - Lilika Makabe, Hiroaki Santo, Fumio Okura, Michael S. Brown, Yasuyuki Matsushita (2025). Spectral sensitivity estimation with an uncalibrated diffraction grating. In ICCV 2025.
 
-We also have other two paper presentations from our lab (which I have not co-authored) from Shinoda-sensei.
+We also have the other two paper presentations from our lab (which I have not co-authored) from <a href="https://sites.google.com/view/risashinoda/home" target="_blank">Shinoda-sensei</a>.
