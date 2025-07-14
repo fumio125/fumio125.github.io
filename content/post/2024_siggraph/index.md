@@ -1,6 +1,6 @@
 ---
 title: 🎉 A paper was accepted to SIGGRAPH 2024!
-summary: Congratulations for Zhou-san for your great work!
+summary: Congrats for Zhou-san for your great work!
 date: 2024-03-25
 authors:
   - admin

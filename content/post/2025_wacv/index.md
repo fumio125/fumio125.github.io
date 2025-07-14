@@ -1,6 +1,6 @@
 ---
 title: 🎉 A paper was accepted to WACV 2025!
-summary: Congratulations for Liu-san for your great work!
+summary: Congrats for Liu-san for your great work!
 date: 2024-10-28
 authors:
   - admin

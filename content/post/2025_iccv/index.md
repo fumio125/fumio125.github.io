@@ -1,6 +1,6 @@
 ---
 title: 🎉 Two papers are accepted to ICCV 2025!
-summary: Congratulations for Yang-san and Makabe-san for your great works! See you in Hawaii🌺
+summary: Congrats for Yang-san and Makabe-san for your great works! See you in Hawaii🌺
 date: 2025-06-26
 authors:
   - admin

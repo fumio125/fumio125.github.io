@@ -1,6 +1,6 @@
 ---
 title: 🎉 A paper was accepted to CVPR 2025!
-summary: Congratulations for Liu-san and Huang-san for your great work!
+summary: Congrats for Liu-san and Huang-san for your great work!
 date: 2025-02-26
 authors:
   - admin
