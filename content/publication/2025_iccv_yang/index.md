@@ -51,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'http://arxiv.org/abs/2507.12714'
 url_code: 'https://neuraleaf-yang.github.io/'
 url_dataset: 'https://neuraleaf-yang.github.io/'
 url_poster: ''
