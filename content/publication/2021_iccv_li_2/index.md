@@ -27,8 +27,8 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2021)*
-publication_short: In *ICCV 2021*
+publication: In *IEEE/CVF International Conference on Computer Vision (ICCV 2021)*, **Oral presentation**
+publication_short: In *ICCV 2021* (**Oral**)
 
 abstract: "We consider the shuffled linear regression problem where the correspondences between covariates and responses are unknown. While the existing formulation assumes an ideal underlying bijection in which all pieces of data should match, such an assumption barely holds in real-world applications due to either missing data or outliers. Therefore, in this work, we generalize the formulation of shuffled linear regression to a broader range of conditions where only part of the data should correspond. Moreover, we present a remarkably simple yet effective optimization algorithm with guaranteed global convergence. Distinct tasks validate the effectiveness of the proposed method."
 
