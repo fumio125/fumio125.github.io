@@ -1,5 +1,5 @@
 ---
-title: 'Panel Discussion: The Science of Phenomics '
+title: 'Panel Discussion: The Science of Phenomics @ MLCAS2025'
 
 event: 'International Workshop on Machine Learning for Cyber-Agricultural Systems (MLCAS2025)'
 event_url: https://2025.mlcas.site/
