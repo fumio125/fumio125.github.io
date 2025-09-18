@@ -34,7 +34,7 @@ publication_types: ['paper-conference']
 publication: In *IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2026)*
 publication_short: In *WACV 2026*
 
-abstract: "TBA"
+abstract: "Foundation segmentation models achieve reasonable leaf instance extraction from top-view crop images without training (i.e., zero-shot). However, segmenting entire plant individuals with each consisting of multiple overlapping leaves remains challenging. This problem is referred to as a hierarchical segmentation task, typically requiring annotated training datasets, which are often species-specific and require notable human labor. To address this, we introduce ZeroPlantSeg, a zero-shot segmentation for rosette-shaped plant individuals from top-view images. We integrate a foundation segmentation model, extracting leaf instances, and a vision-language model, reasoning about plants' structures to extract plant individuals without additional training. Evaluations on datasets with multiple plant species, growth stages, and shooting environments demonstrate that our method surpasses existing zero-shot methods and achieves better cross-domain performance than supervised methods."
 
 
 # Summary. An optional shortened abstract.
@@ -47,15 +47,15 @@ tags:
   - Plant phenotyping
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2509.09116'
+url_code: 'https://github.com/JunhaoXing/ZeroPlantSeg/'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -65,10 +65,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-# image:
-#   caption: '[**TreeFormer**](https://github.com/huntorochi/TreeFormer/)'
-#   focal_point: ''
-#   preview_only: false
+image:
+  caption: '[**ZeroPlantSeg**](https://github.com/JunhaoXing/ZeroPlantSeg/)'
+  focal_point: ''
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
