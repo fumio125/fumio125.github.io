@@ -44,7 +44,7 @@ tags:
   - WACV 2026
   - WACV
   - Computer vision
-  - Plant phenotyping
+  - Plant phenomics
 
 # Display this page in the Featured widget?
 featured: true
