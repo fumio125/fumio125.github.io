@@ -15,7 +15,7 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2020-11-30T00:00:00Z'
+date: '2019-06-30T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -27,8 +27,8 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2021)*
-publication_short: In *CVPR 2021*
+publication: In *IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW 2019)*
+publication_short: In *CVPRW 2019*
 
 abstract: "This paper proposes a multi-view extension of instance segmentation without relying on texture or shape descriptor matching. Multi-view instance segmentation becomes challenging for scenes with repetitive textures and shapes, e.g., plant leaves, due to the difficulty of multi-view matching using texture or shape descriptors. To this end, we propose a multi-view region matching method based on epipolar geometry, which does not rely on any feature descriptors. We further show that the epipolar region matching can be easily integrated into instance segmentation and effective for instance-wise 3D reconstruction. Experiments demonstrate the improved accuracy of multi-view instance matching and the 3D reconstruction compared to the baseline methods."
 
