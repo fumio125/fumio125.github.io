@@ -34,9 +34,10 @@ abstract: Text-to-image diffusion models are increasingly used to generate synth
 
 
 # Summary. An optional shortened abstract.
-# summary: We develop NeuraLeaf, the first neural parametric model for 3D leaves for plant modeling and reconstruction. 
+summary: We propose an instance-wise control of the attribute distributions in the generated images of diffusion models.
 
 tags:
+  - Pattern Recognition
   - Computer vision
   - Generative AI
   - Diffusion models
