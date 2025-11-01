@@ -15,7 +15,7 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-10-22T00:00:00Z'
+date: '2026-04-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -27,7 +27,7 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: "*Pattern Recognition*:112614"
+publication: "*Pattern Recognition 172*(C):112614"
 publication_short: 
 
 abstract: Text-to-image diffusion models are increasingly used to generate synthetic datasets for downstream vision tasks. However, they often inherit biases from large-scale training data, which can result in unbalanced attribute distributions in the generated images. While prior efforts have attempted to mitigate these biases, most focus on single-object images and struggle to control attributes across object instances in multi-instance generations. To address this limitation, we propose an instance-wise control of the attribute distribution by fine-tuning diffusion models with guidance from a pre-trained object detector and an attribute classifier. Our approach aligns the attribute distribution over object instances in generated images with a user-defined distribution, which enables precise control over attribute proportions at the instance level. Experiments across various objects and attributes demonstrate that our method generates high-quality, multi-instance images that match the specified distribution, supporting the scalable creation of distribution-aware synthetic datasets for in-the-wild vision tasks.
