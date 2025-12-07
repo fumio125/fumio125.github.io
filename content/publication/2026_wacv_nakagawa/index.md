@@ -1,5 +1,5 @@
 ---
-title: 'CattleAct: Cattle interaction detection with joint learning of action-interaction latent space'
+title: 'Interaction-via-Actions: Cattle interaction detection with joint learning of action-interaction latent space'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here

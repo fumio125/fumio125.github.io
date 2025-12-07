@@ -14,4 +14,4 @@ tags:
 🎉 Congratulations, Xing-san, Nakagawa-san (at Kobe U) & Yang-san! We will present the following papers in WACV 2026 Tuscon🌵
 
 - Junhao Xing, Ryohei Miyakawa, Yang Yang, Xinpeng Liu, Risa Shinoda, Hiroaki Santo, Yosuke Toda, Fumio Okura. Zero-shot hierarchical plant segmentation via foundation segmentation models and text-to-image attention. In WACV 2026.
-- Ren Nakagawa, Yang Yang, Risa Shinoda, Hiroaki Santo, Kenji Oyama, Fumio Okura, Takenao Ohkawa. CattleAct: Cattle interaction detection with joint learning of action-interaction latent space. In WACV 2026.
+- Ren Nakagawa, Yang Yang, Risa Shinoda, Hiroaki Santo, Kenji Oyama, Fumio Okura, Takenao Ohkawa. Interaction-via-Actions: Cattle interaction detection with joint learning of action-interaction latent space. In WACV 2026.
