@@ -10,6 +10,13 @@ awards:
   - title: Reviewer (regularly)
     date: '2099-01-01'
     awarder: CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, AAAI, ISMAR, TPAMI, IJCV, etc. 
+  - title: Area Chair, CVPR 2026
+    url: https://cvpr.thecvf.com/
+    date: '2026-06-03'
+  - title: Area Chair, WACV 2026
+    url: https://wacv.thecvf.com/
+    date: '2026-03-06'
+    awarder: NeurIPS 2025
   - title: Area Chair, NeurIPS 2025
     url: https://neurips.cc/
     date: '2025-12-02'
