@@ -9,7 +9,7 @@ title: Fumio Okura
 awards:
   - title: Associate Editor
     date: '2099-01-03'
-    awarder: Plant Phenomics, IEICE Transactions on Information and Systems
+    awarder: Plant Phenomics (2018-), IEICE Transactions on Information and Systems (2022-)
   - title: Area Chair
     date: '2099-01-02'
     awarder: CVPR (2026), ICCV (2025), NeurIPS (2025), WACV (2026), ISMAR (2022), etc. 
