@@ -47,8 +47,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2602.14493'
+url_code: 'https://github.com/huntorochi/Gaussian-Mesh-Renderer'
 url_dataset: ''
 url_poster: ''
 url_project: ''
