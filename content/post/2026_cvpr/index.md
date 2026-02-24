@@ -13,4 +13,4 @@ tags:
 
 🎉 Congratulations, Shinoda-sensei! We will present the following papers in CVPR 2026 Denver.
 
-- Risa Shinoda, Kaede Shiohara, Nakamasa Inoue, Kuniaki Saito, Hiroaki Santo, Fumio Okura, BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment. In CVPR 2026.
+- Risa Shinoda, Kaede Shiohara, Nakamasa Inoue, Kuniaki Saito, Hiroaki Santo, Fumio Okura. BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment. In CVPR 2026.

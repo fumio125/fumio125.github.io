@@ -1,5 +1,5 @@
 ---
-title: 'BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment'
+title: 'BioVITA: Biological dataset, model, and benchmark for visual-textual-acoustic alignment'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
