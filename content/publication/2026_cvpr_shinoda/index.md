@@ -1,5 +1,5 @@
 ---
-title: 'TBA'
+title: 'BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -32,20 +32,20 @@ publication_types: ['paper-conference']
 publication: In *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)*
 publication_short: In *CVPR 2026*
 
-abstract: "TBA."
+abstract: "Understanding animal species from multimodal data poses an emerging challenge at the intersection of computer vision and ecology. While recent biological models, such as BioCLIP, have demonstrated strong alignment between images and textual taxonomic information for species identification, the integration of the audio modality remains an open problem. We propose BioVITA, a novel visual-textual-acoustic alignment framework for biological applications. BioVITA involves (i) a training dataset, (ii) a representation model, and (iii) a retrieval benchmark. First, we construct a large-scale training dataset comprising 1.3 million audio clips and 2.3 million images, covering 14,133 species annotated with 34 ecological trait labels. Second, building upon BioCLIP2, we introduce a two-stage training framework to effectively align audio representations with visual and textual representations. Third, we develop a cross-modal retrieval benchmark that covers all possible directional retrieval across the three modalities (i.e., image-to-audio, audio-to-text, text-to-image, and their reverse directions), with three taxonomic levels: Family, Genus, and Species. Extensive experiments demonstrate that our model learns a unified representation space that captures species-level semantics beyond taxonomy, advancing multimodal biodiversity understanding."
 
 
 # Summary. An optional shortened abstract.
-summary: TBA.
+summary: We propose BioVITA, visual-textual-acoustic alignment framework for animal understanding.
 
 tags:
   - CVPR 2026
   - CVPR
   - Computer vision
-  - Animal recognition
+  - Animal understanding
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -63,10 +63,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-# image:
-#   caption: '[**ZeroPlantSeg**](https://github.com/JunhaoXing/ZeroPlantSeg/)'
-#   focal_point: ''
-#   preview_only: false
+image:
+  caption: '[**BioVITA**]()'
+  focal_point: ''
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
