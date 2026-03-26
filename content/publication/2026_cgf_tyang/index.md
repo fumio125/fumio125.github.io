@@ -32,11 +32,10 @@ publication_types: ['article-journal']
 publication: "*Computer Graphics Forum*"
 publication_short: 
 
-abstract: TBA.
-
+abstract: Previous multi-view normal integration methods typically sample a single ray per pixel, without considering the spatial area covered by each pixel, which varies with camera intrinsics and the camera-to-object distance. Consequently, when the target object is captured at different distances, the normals at corresponding pixels may differ across views. This multi-view surface normal inconsistency results in the blurring of high-frequency details in the reconstructed surface. To address this issue, we propose a scale-encoded neural surface representation that incorporates the pixel coverage area into the neural representation. By associating each 3D point with a spatial scale and calculating its normal from a hybrid grid-based encoding, our method effectively represents multi-scale surface normals captured at varying distances. Furthermore, to enable scale-aware surface reconstruction, we introduce a mesh extraction module that assigns an optimal local scale to each vertex based on the training observations. Experimental results demonstrate that our approach consistently yields high-fidelity surface reconstruction from normals observed at varying distances, outperforming existing multi-view normal integration methods.
 
 # Summary. An optional shortened abstract.
-summary: TBA.
+summary: We propose a scale-encoded neural surface representation that incorporates the pixel coverage area into the neural representation.
 
 tags:
   - Computer Graphics Forum
@@ -52,7 +51,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/abs/2603.20337'
 url_code: ''
 url_dataset: ''
 url_poster: ''

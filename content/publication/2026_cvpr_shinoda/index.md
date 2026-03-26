@@ -52,8 +52,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2603.23883'
+url_code: 'https://dahlian00.github.io/BioVITA_Page/'
 url_dataset: ''
 url_poster: ''
 url_project: ''

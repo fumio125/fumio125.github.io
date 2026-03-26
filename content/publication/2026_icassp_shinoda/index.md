@@ -31,11 +31,11 @@ publication_types: ['paper-conference']
 publication: In *IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2026)*
 publication_short: In *ICASSP 2026*
 
-abstract: "TBA"
+abstract: "Animal vocalizations provide crucial insights for wildlife assessment, particularly in complex environments such as forests, aiding species identification and ecological monitoring. Recent advances in deep learning have enabled automatic species classification from their vocalizations. However, classifying species unseen during training remains challenging. To address this limitation, we introduce AnimalCLAP, a taxonomy-aware language-audio framework comprising a new dataset and model that incorporate hierarchical biological information. Specifically, our vocalization dataset consists of 4,225 hours of recordings covering 6,823 species, annotated with 22 ecological traits. The AnimalCLAP model is trained on this dataset to align audio and textual representations using taxonomic structures, improving the recognition of unseen species. We demonstrate that our proposed model effectively infers ecological and biological attributes of species directly from their vocalizations, achieving superior performance compared to CLAP."
 
 
 # Summary. An optional shortened abstract.
-summary: TBA
+summary: We introduce AnimalCLAP, a taxonomy-aware language-audio framework that incorporate hierarchical biological information.
 tags:
   - ICASSP 2026
   - ICASSP
@@ -50,8 +50,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2603.22053'
+url_code: 'https://dahlian00.github.io/AnimalCLAP_Page/'
 url_dataset: ''
 url_poster: ''
 url_project: ''
