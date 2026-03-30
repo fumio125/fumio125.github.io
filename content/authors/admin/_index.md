@@ -75,11 +75,19 @@ education:
       I skipped the fourth grade of undergraduate and entered into the graduate school one year earlier than the usual path.
 work:
   - position: Associate Professor
+    company_name: SANKEN, The University of Osaka
+    company_url: 'https://www.sanken.osaka-u.ac.jp/'
+    company_logo: ''
+    date_start: 2026-04-01
+    date_end: ''
+    summary: |
+      Working for the boundary domain between computer vision and graphics (MIM Lab).
+- position: Associate Professor
     company_name: Graduate School of Information Science and Technology, The University of Osaka
     company_url: 'https://www.ist.osaka-u.ac.jp/'
     company_logo: ''
     date_start: 2020-04-01
-    date_end: ''
+    date_end: '2026-03-31'
     summary: |
       Working for the boundary domain between computer vision and graphics (Computer Vision Lab).
   - position: JST PRESTO researcher
@@ -166,7 +174,7 @@ awards:
 
 ## About Me
 
-I am an associate professor in <a href="http://cvl.ist.osaka-u.ac.jp/" target="_blank">Computer Vision Laboratory</a>, Graduate School of Information Science and Technology, The University of Osaka, working with (Guest) Professor Yasuyuki Matsushita and Associate Professor Hiroaki Santo (@ D3 Center, UOsaka). I recently found the <a href="https://www.cvl.osaka/" target="_blank">Computer Vision League Osaka (CVL-Osaka)</a> alliance gathering CV reseachers around Osaka.
+I am an associate professor in <a href="https://im.sanken.osaka-u.ac.jp/" target="_blank">MIM Lab</a>, SANKEN, The University of Osaka, working with Professor Yuta Nakashima, Guest Professor Yasuyuki Matsushita, Associate Professor Hiroaki Santo (@ D3 Center, UOsaka), and others. I recently found the <a href="https://www.cvl.osaka/" target="_blank">Computer Vision League Osaka (CVL-Osaka)</a> alliance gathering CV reseachers around Osaka.
 
 Until March 2020, I was an assistant professor at the Department of Intelligent Media (Yagi Lab.). I received my Ph.D. (Doctor of Engineering) in March 2014 from Nara Institute of Science and Technology (NAIST), Japan, under the supervision of Professor Naokazu Yokoya in Vision and Media Computing Lab. After receiving my Ph.D., I visited the REVES group at INRIA Sophia-Antipolis, France and worked with Dr. George Drettakis, Dr. Adrien Bousseau, and Dr. Kenneth Vanhoey in collaboration with Professor Alyosha Efros (UC Berkeley). From 2017 to 2021, I was also a researcher in JST PRESTO (さきがけ), "Innovational technical basis for cultivation in cooperation with information science" (情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出) research area.
 
