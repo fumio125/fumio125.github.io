@@ -82,7 +82,7 @@ work:
     date_end: ''
     summary: |
       Working for the boundary domain between computer vision and graphics (MIM Lab).
-- position: Associate Professor
+  - position: Associate Professor
     company_name: Graduate School of Information Science and Technology, The University of Osaka
     company_url: 'https://www.ist.osaka-u.ac.jp/'
     company_logo: ''
