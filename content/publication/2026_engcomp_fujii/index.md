@@ -1,13 +1,14 @@
 ---
-title: 'TreeFormer: Single-view plant skeleton estimation via tree-constrained graph generation'
+title: 'Empirical hyperelastic modeling of textile fabrics for measuring nonlinear bending rigidity'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Xinpeng Liu
+  - Ryota Fujii
+  - Akichika Nakashima
   - Hiroaki Santo
-  - Yosuke Toda
+  - Toshiyasu Kinari
   - admin
 
 # Author notes (optional)
@@ -15,7 +16,7 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-02-28T00:00:00Z'
+date: '2026-06-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -23,24 +24,22 @@ publishDate: '2017-01-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+# c.
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2025)*
-publication_short: In *WACV 2025*
+publication: "*Engineering with Computers*"
+publication_short: 
 
-abstract: "Accurate estimation of plant skeletal structure (e.g., branching structure) from images is essential for smart agriculture and plant science. Unlike human skeletons with fixed topology, plant skeleton estimation presents a unique challenge, i.e., estimating arbitrary tree graphs from images. While recent graph generation methods successfully infer thin structures from images, it is challenging to constrain the output graph strictly to a tree structure. To this problem, we present TreeFormer, a plant skeleton estimator via tree-constrained graph generation. Our approach combines learning-based graph generation with traditional graph algorithms to impose the constraints during the training loop. Specifically, our method projects an unconstrained graph onto a minimum spanning tree (MST) during the training loop and incorporates this prior knowledge into the gradient descent optimization by suppressing unwanted feature values. Experiments show that our method accurately estimates target plant skeletal structures for multiple domains: Synthetic tree patterns, real botanical roots, and grapevine branches."
+abstract: Measuring and modeling the bending rigidity of textile fabrics is challenging due to the nonlinearity and coupling of the bending and tensile strains, especially in the high-stress ranges. To address this problem, we propose a novel empirical hyperelastic model to measure the nonlinear behaviors of the bending rigidity, including high-stress ranges close to bending rupture. Specifically, we develop the hyperelastic strain energy by generalizing the linear orthotropic constitutive relation, whose nonlinear material parameters can be directly determined by fabric tests through nonlinear curve fitting. To model the nonlinear bending modulus, we introduce fraction factors that quantify the softness of the bending rigidity compared with the tensile rigidity. Based on the proposed hyperelastic model, we performed the finite element method of ball bursting tests to optimize the fraction factors, and found that the bending rigidity is 3-5 times lower than the tensile rigidity in high-stress ranges for cotton woven fabrics (i.e., Sheeting, Ox, and Twill), showing that the nonlinearity of the bending modulus and strain is important for predicting bending stresses during the out-of-plane stretching. Besides, the nonlinearity of the tensile rigidity also affects the measurement of the bending rigidity in high-stress ranges. We anticipate that our hyperelastic modeling of textile fabrics and measurement method of the nonlinear bending rigidity will give new functionalities to product development in the textile industry.
 
 
 # Summary. An optional shortened abstract.
-summary: We develop TreeFormer, accurately estimating plant skeletal structure from a single image.
+summary: We propose an empirical hyperelastic model to measure the nonlinear behaviors of the bending rigidity.
 
 tags:
-  - WACV 2025
-  - WACV
-  - Computer vision
-  - Plant phenomics
+  - Textile
+  - Hyperelastic models
 
 # Display this page in the Featured widget?
 featured: false
@@ -50,8 +49,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2411.16132'
-url_code: 'https://github.com/huntorochi/TreeFormer/'
+url_pdf: ''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -62,7 +61,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: '[**TreeFormer**](https://github.com/huntorochi/TreeFormer/)'
+  caption: ''
   focal_point: ''
   preview_only: false
 

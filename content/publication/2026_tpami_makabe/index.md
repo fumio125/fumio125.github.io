@@ -1,21 +1,22 @@
 ---
-title: 'TreeFormer: Single-view plant skeleton estimation via tree-constrained graph generation'
+title: 'DP-SfM: Dual-pixel structure-from-motion without scale ambiguity'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Xinpeng Liu
+  - Lilika Makabe
+  - Kohei Ashida
   - Hiroaki Santo
-  - Yosuke Toda
   - admin
+  - Yasuyuki Matsushita
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2025-02-28T00:00:00Z'
+date: '2026-05-05T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -23,35 +24,35 @@ publishDate: '2017-01-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+# c.
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2025)*
-publication_short: In *WACV 2025*
+publication: "*IEEE Transactions on Pattern Analysis and Machine Intelligence*"
+publication_short: 
 
-abstract: "Accurate estimation of plant skeletal structure (e.g., branching structure) from images is essential for smart agriculture and plant science. Unlike human skeletons with fixed topology, plant skeleton estimation presents a unique challenge, i.e., estimating arbitrary tree graphs from images. While recent graph generation methods successfully infer thin structures from images, it is challenging to constrain the output graph strictly to a tree structure. To this problem, we present TreeFormer, a plant skeleton estimator via tree-constrained graph generation. Our approach combines learning-based graph generation with traditional graph algorithms to impose the constraints during the training loop. Specifically, our method projects an unconstrained graph onto a minimum spanning tree (MST) during the training loop and incorporates this prior knowledge into the gradient descent optimization by suppressing unwanted feature values. Experiments show that our method accurately estimates target plant skeletal structures for multiple domains: Synthetic tree patterns, real botanical roots, and grapevine branches."
+abstract: Multi-view 3D reconstruction, namely, structure-from-motion followed by multi-view stereo, is a fundamental component of 3D computer vision. In general, multi-view 3D reconstruction suffers from an unknown scale ambiguity unless a reference object of known size is present in the scene. In this article, we show that multi-view images captured using a dual-pixel (DP) sensor can automatically resolve the scale ambiguity, without requiring a reference object or prior calibration. Specifically, the defocus blur observed in DP images provides sufficient information to determine the absolute scale when paired with depth maps (up to scale) recovered from multi-view 3D reconstruction. Based on this observation, we develop a simple yet effective linear method to estimate the absolute scale, followed by the intensity-based optimization stage that aligns the left and right DP images by shifting them back toward each other using cross-view blur kernels. Experiments demonstrate the effectiveness of the proposed approach across diverse scenes captured with different cameras and lenses.
 
 
 # Summary. An optional shortened abstract.
-summary: We develop TreeFormer, accurately estimating plant skeletal structure from a single image.
+summary: We integrate structure-from-motion (SfM) and dual-pixel (DP) imaging to resolving scale ambiguity.
 
 tags:
-  - WACV 2025
-  - WACV
+  - TPAMI
   - Computer vision
-  - Plant phenomics
+  - Structure-from-motion
+  - Dual-pixel imaging
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2411.16132'
-url_code: 'https://github.com/huntorochi/TreeFormer/'
+url_pdf: 'https://arxiv.org/abs/2605.01852'
+url_code: 'https://github.com/lilika-makabe/dp-sfm-tpami'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -62,7 +63,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: '[**TreeFormer**](https://github.com/huntorochi/TreeFormer/)'
+  caption: ''
   focal_point: ''
   preview_only: false
 
