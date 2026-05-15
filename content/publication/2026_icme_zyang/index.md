@@ -36,7 +36,7 @@ abstract: "We propose a neural regularization method that refines the noisy 3D s
 
 
 # Summary. An optional shortened abstract.
-summary: TBA.
+summary: We propose NRGS, a neural regularization method for an accurate and robust 3D semantic Gaussian Splatting.
 tags:
   - ICME 2026
   - ICME
@@ -51,7 +51,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/abs/2604.22439'
 url_code: ''
 url_dataset: ''
 url_poster: ''
