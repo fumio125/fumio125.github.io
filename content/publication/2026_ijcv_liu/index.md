@@ -49,7 +49,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'http://arxiv.org/abs/2605.17773'
 url_code: 'https://github.com/huntorochi/PlantPose/'
 url_dataset: ''
 url_poster: ''
