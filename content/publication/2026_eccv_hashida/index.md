@@ -33,7 +33,7 @@ abstract: "This paper introduces an inverse-rendering framework for natural-ligh
 
 
 # Summary. An optional shortened abstract.
-summary: We introduces an inverse-rendering framework for natural-light, uncalibrated photometric stereo (PS).
+summary: We introduce an inverse-rendering framework for natural-light, uncalibrated photometric stereo (PS).
 
 tags:
   - ECCV 2026
