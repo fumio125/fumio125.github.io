@@ -1,7 +1,7 @@
 ---
 title: 🎉 A paper was accepted to ECCV 2026!
 summary: Congrats for Hashida-san for your great work!
-date: 2026-7-15
+date: 2026-07-15
 authors:
   - admin
 tags:
