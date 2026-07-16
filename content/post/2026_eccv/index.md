@@ -13,4 +13,4 @@ tags:
 
 🎉 Congratulations, Hashida-san! We will present the following paper in ECCV 2026 Malmo!
 
-- Taiga Hashida, Hiroaki Santo, Yosuke Toda, Fumio Okura. Don't mask out the background! Natural-light photometric stereo via illumination reconstruction. In ECCV 2026.
+- Taiga Hashida, Hiroaki Santo, Fumio Okura. Don't mask out the background! Natural-light photometric stereo via illumination reconstruction. In ECCV 2026.
