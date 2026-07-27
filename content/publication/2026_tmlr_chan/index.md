@@ -1,5 +1,5 @@
 ---
-title: 'DP-SfM: Dual-pixel structure-from-motion without scale ambiguity'
+title: 'FreeEyeglass: Training-free and target-mask-free eyeglass transfer for facial videos'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
