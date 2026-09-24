@@ -1,20 +1,22 @@
 ---
-title: "Don't mask out the background! Natural-light photometric stereo via illumination reconstruction"
+title: 'NeuraLeaf: Disentangled neural parametric modeling of leaf shape, deformation, and appearance'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Taiga Hashida
+  - Yang Yang
+  - Risa Shinoda
   - Hiroaki Santo
+  - Yasuyuki Matsushita
   - admin
-
+  
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2026-09-09T00:00:00Z'
+date: '2026-09-18T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -22,24 +24,23 @@ publishDate: '2017-01-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+# c.
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: In *European Conference on Computer Vision (ECCV 2026)*
-publication_short: In *ECCV 2026*
+publication: "*International Journal of Computer Vision*"
+publication_short: 
 
-abstract: "This paper introduces an inverse-rendering framework for natural-light, uncalibrated photometric stereo (PS) that leverages background cues captured alongside the target object. Natural-light PS (NaPS) acquires shading variations by moving or rotating the camera and object under fixed, uncontrolled illumination, such as indoor lighting, while maintaining their relative geometry. However, uncalibrated NaPS, in which the lighting conditions are unknown, remains inherently ill-posed. To tackle this challenge, we propose explicitly reconstructing the lighting environment from the image background, which is typically masked out in prior work, thereby converting uncalibrated NaPS into a tractable inverse-rendering problem. Specifically, we move and rotate the camera-object pair while keeping their relative pose fixed, and reconstruct the surrounding illumination directly from the observed background using a 3D Gaussian Splatting (3DGS) representation. We then optimize the target object's shape and reflectance via inverse rendering under the reconstructed illumination. Experimental results demonstrate that our inverse-rendering-based approach yields more accurate estimates of both geometry and reflectance than existing learning-based PS methods, especially under realistic near-field indoor conditions."
+abstract: We develop a neural parametric model of 3D leaves for plant modeling and reconstruction that are essential for agriculture and computer graphics. While neural parametric models are actively studied for humans and animals, plant leaves present unique challenges due to their thin surface geometry and flexible deformation. To address this problem, we introduce a neural parametric model for leaves, NeuraLeaf. Capitalizing on the fact that flattened leaf shapes can be approximated as a 2D plane, NeuraLeaf disentangles the leaves’ geometry into their 2D base shapes (i.e., flattened leaves) and 3D deformations. This representation allows learning from rich sources of 2D leaf image datasets for the base shapes, and also has the advantage of simultaneously learning textures aligned with the geometry. To obtain a disentangled and controllable appearance space, NeuraLeaf also introduces a learnable appearance space with self-supervised objectives, enabling both appearance fitting to observations and appearance-conditioned texture generation. To model the 3D deformation, we propose a novel skeleton-free skinning model and create a newly captured 3D leaf dataset called DeformLeaf. We demonstrate that NeuraLeaf successfully generates a diverse range of leaf shapes with high-fidelity appearance and deformation, resulting in accurate model fitting to RGB-D observations.
 
 
 # Summary. An optional shortened abstract.
-summary: We introduce an inverse-rendering framework for natural-light, uncalibrated photometric stereo (PS).
+summary: We propose NeuraLeaf, a neural parametric model of 3D leaves for plant modeling and reconstruction.
 
 tags:
-  - ECCV 2026
-  - ECCV
+  - IJCV
   - Computer vision
-  - Photometric stereo
+  - Plant phenomics
 
 # Display this page in the Featured widget?
 featured: true
@@ -49,8 +50,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/11902.pdf'
-url_code: ''
+url_pdf: 'https://link.springer.com/article/10.1007/s11263-026-03024-6'
+url_code: 'https://github.com/Yrainy0615/NeuraLeaf-APP'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -61,7 +62,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: '[**Hashida+, ECCV2026**]()'
+  caption: ''
   focal_point: ''
   preview_only: false
 
