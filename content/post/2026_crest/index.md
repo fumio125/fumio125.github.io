@@ -1,6 +1,6 @@
 ---
 title: We start the Twin Agriculture CREST Project!
-summary:「ツイン農業のための栽培環境のマルチスケール時空間仮想化」（2026/10-2032/03）
+summary: Multiscale Spatiotemporal Virtualization of Cultivation Environments for Twin Agriculture
 date: 2026-10-01
 authors:
   - admin
