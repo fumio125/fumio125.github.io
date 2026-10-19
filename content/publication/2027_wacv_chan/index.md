@@ -1,5 +1,5 @@
 ---
-title: 'PartAlign: Motion-Consistent Facial Part Transfer in Videos via Alignment-Aware Diffusion'
+title: 'PartAlign: Motion-consistent facial part transfer in videos via alignment-aware diffusion'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here

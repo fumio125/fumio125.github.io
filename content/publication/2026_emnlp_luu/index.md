@@ -1,5 +1,5 @@
 ---
-title: 'MedSPA: Self-planning Medical Agents'
+title: 'MedSPA: Self-planning medical agents'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here

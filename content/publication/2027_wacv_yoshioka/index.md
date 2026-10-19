@@ -1,5 +1,5 @@
 ---
-title: 'Soft Triangle Splatting for 2D Image Representation'
+title: 'Soft triangle splatting for 2D image representation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
