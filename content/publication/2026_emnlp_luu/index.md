@@ -30,17 +30,18 @@ publication_types: ['paper-conference']
 publication: In *Conference on Empirical Methods in Natural Language Processing (EMNLP 2026, Main)*
 publication_short: In *EMNLP 2026*
 
-abstract: ""
+abstract: "Reliable medical diagnosis requires a precise final prediction, which is strictly supported by observable evidence. Recent large vision-language models perform well on medical image understanding tasks, yet they often lack explicit control over which evidence to inspect before making a prediction. To facilitate flexible planning of evidence exploration, we propose MedSPA, a self-planning medical reasoning framework that separates diagnostic evidence acquisition from evidence-grounded prediction with two cooperative agents: a planning-and-reasoning agent that adaptively decides what to inspect and when to stop, and a summary agent that generates the final output from the accumulated evidence. MedSPA distills medical knowledge from strict diagnostic procedures but acquires flexibility through reinforcement learning to generate optimal outputs. Experiments on medical report generation and medical visual question answering show that MedSPA improves clinical performance, faithfulness, and controllability over existing reasoning baselines."
 
 
 # Summary. An optional shortened abstract.
-summary: We propose MedSPA, self-planning medical agents.
+summary: We propose MedSPA, a self-planning medical reasoning framework that separates diagnostic evidence acquisition from evidence-grounded prediction.
 
 tags:
   - EMNLP 2026
   - EMNLP
   - Natural language processing
-  - Medical AI
+  - Agentic AI 
+  - Medical
 
 # Display this page in the Featured widget?
 featured: false
@@ -50,7 +51,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://doi.org/10.18653/2026.emnlp-main.1368'
 url_code: ''
 url_dataset: ''
 url_poster: ''
